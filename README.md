@@ -110,6 +110,18 @@ answers) and comes back when they close the window.
   Wi-Fi in one tap (set its name and password in **Settings → Phone voting & Wi-Fi**); code 2 opens the voting page. With no guest
   Wi-Fi set, it's one big voting code. The codes use this computer's address tonight, so print it on the night.
 
+| Winner's check |
+|---|
+| ![Winner's check](docs/screenshots/prop-check.jpg) |
+
+| Badges: host, crew, contestants and audience |
+|---|
+| ![Badges](docs/screenshots/prop-badges.jpg) |
+
+| QR poster — Wi-Fi and voting | QR poster — voting only |
+|---|---|
+| <img src="docs/screenshots/prop-qr-poster.jpg" width="380" alt="QR poster with Wi-Fi and voting codes"> | <img src="docs/screenshots/prop-qr-poster-voting-only.jpg" width="380" alt="QR poster with one voting code"> |
+
 ### Show clock, Out of Time and end credits
 
 - **Show length** (Settings → *Show clock*): no limit, or 15 minutes to 3 hours. The clock starts with the first game and runs across games.
