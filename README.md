@@ -222,12 +222,26 @@ Every screen draws on a fixed 1920×1080 canvas that scales to any resolution, s
      and don't use its "guest" network, which keeps devices apart.
    - The live count shows next to the lifeline controls.
    - If nobody votes, the game falls back to a simulated poll.
+   - **Phones connected** in Settings counts every phone with the page open. Click it to see who's who: how many are in
+     the audience, how many are Fastest Finger contestants, and how many are still on the join screen.
+5. **Fastest Finger on the phone:** on the same page, people can choose **Be a contestant** instead.
+   - Up to **10 players** can be on the list at once (phones, the players' app and any you add yourself). Anyone after
+     that is told it's full, and can still join the audience.
+   - Contestants can write **a little about themselves** (their job, hobbies, a fun fact). When the winner takes the hot
+     seat, it goes on their contestant card with where they're from, so the host can read it out from the host screen.
+   - When the clock starts, the question and the four answers appear; the fourth tap sends their order.
+   - Once the winner is revealed on the TV, every phone shows how it went: **"You won! Come on down to the hot seat!"**,
+     "So close!" with their time and place, "Not this time" with the correct order, or "It's a tie!" before a tie-breaker.
 
 **On the phone** (the `/vote` page): people join as an audience member or a Fastest Finger contestant.
 
-| Joining | Fastest Finger — answering | Fastest Finger — answer sent |
+| Joining (with "a little about you") | Fastest Finger — answering | Fastest Finger — answer sent |
 |---|---|---|
 | <img src="docs/screenshots/phone-join.jpg" width="220" alt="Joining on a phone"> | <img src="docs/screenshots/phone-fff-answering.jpg" width="220" alt="Fastest Finger on a phone"> | <img src="docs/screenshots/phone-fff-sent.jpg" width="220" alt="Fastest Finger answer sent"> |
+
+| Fastest Finger — the winner | Right, but not fastest | Wrong answer |
+|---|---|---|
+| <img src="docs/screenshots/phone-fff-won.jpg" width="220" alt="You won! on a phone"> | <img src="docs/screenshots/phone-fff-so-close.jpg" width="220" alt="So close! on a phone"> | <img src="docs/screenshots/phone-fff-not-this-time.jpg" width="220" alt="Not this time on a phone"> |
 
 | Audience — waiting | Audience — voting | Audience — voting closed |
 |---|---|---|
