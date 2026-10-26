@@ -128,9 +128,11 @@ answers) and comes back when they close the window.
   It sits in the Control Panel's top bar (⏸ ▶ ↺), and optionally on the Host screen, never on the contestant or TV screens.
 - **When time runs out** the clock stops, **Next question** greys out and a red **Out of Time** button appears.
   It can only be pressed once the question in play has been answered: every sound stops, the time's-up cue plays,
-  and the host sees TIME'S UP. Then **End the game** (the contestant keeps what they've banked) or **Keep playing**.
+  and the host sees TIME'S UP. The game ends there: the contestant keeps what they've banked, the question leaves
+  the screens for what they've won, and the next step is **♪ Walk-away music**. **Take back** (Ctrl+Z) puts the game
+  back if they're to carry on after all; **Keep playing** (before or after) carries on the show.
 - **End credits** roll on every screen to the closing theme, timed so the company card lands on its final chord.
-  After time's up they roll by themselves once the game is over (Settings → *End credits*, which also holds the host and question credits).
+  After time's up they roll by themselves once the game is over and the walk-away music has played (Settings → *End credits*, which also holds the host and question credits).
 
 ### First run, editors and settings
 
@@ -215,6 +217,9 @@ Every screen draws on a fixed 1920×1080 canvas that scales to any resolution, s
    **Use live votes** button sets Ask the Audience to live votes). Once phones scan the poster, it counts them.
    - The audience opens `http://<address>/vote` on their phones (or scans the **QR poster**). It's a web page, so
      nothing needs installing.
+   - Every phone first shows a **Just for Fun!** notice (no real money is played for; any prizes are small ones) and
+     taps **I Understand** before joining; it's asked again after 12 hours. Set who provides tonight's prizes, such
+     as the church or venue, under **Just for fun** on the same Settings page.
    - Until voting opens, phones show the logo and "You're in!". When you press **Open audience voting**, they show the
      question and the four answers (minus any 50:50 took away). Each phone gets one vote and can change it until
      voting closes, then it says "Voting is closed" with their answer.
@@ -234,6 +239,10 @@ Every screen draws on a fixed 1920×1080 canvas that scales to any resolution, s
      "So close!" with their time and place, "Not this time" with the correct order, or "It's a tie!" before a tie-breaker.
 
 **On the phone** (the `/vote` page): people join as an audience member or a Fastest Finger contestant.
+
+| Just for Fun! (the first thing every phone sees) |
+|---|
+| <img src="docs/screenshots/phone-notice.jpg" width="220" alt="Just for Fun notice on a phone"> |
 
 | Joining (with "a little about you") | Fastest Finger — answering | Fastest Finger — answer sent |
 |---|---|---|
