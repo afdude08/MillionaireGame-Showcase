@@ -51,7 +51,10 @@ The Control Panel opens on **Show setup** (everything you set once before the sh
      every screen, the host's too, so they show the logo, ready to introduce the next Fastest Finger players.
 6. **After Switch the Question**, **Reveal switched answer** shows everyone what the discarded question's answer was.
    The Host screen sees it straight away.
-7. **Soundboard:** **Opening** (the opening titles on every screen, to the opening theme, finishing on the logo), Main theme, Next Player (plays by itself when the FFF winner goes to the hot seat), Lights down (the Next Player music fades out under it), **Break** / **Return** (commercial breaks), Ready to play, **Credits**, **Out of Time** and **Stop all**.
+7. **Soundboard:** **Opening** (the opening titles on every screen, to the opening theme, finishing on the logo), Main theme, Next Player (plays by itself when the FFF winner goes to the hot seat), Lights down (the Next Player music fades out under it), **Break** / **Return** (commercial breaks), **Ready to play**, **Credits**, **Out of Time** and **Stop all**.
+   - **Back from a break:** Return puts the contestant in the hot seat on the screens (the host's desk shows their
+     details). **Ready to play** then brings up the empty question board with the money tree beside it, and each lifeline
+     button lights that lifeline up on the tree, with its sting, until the next question is shown.
 8. **Winners** (On the TV) puts tonight's winners on every screen: everyone who has played since the contestants were last reset, biggest winnings first.
 9. **The top prize:** ticker tape pours down over the contestant and TV screens at the reveal, and again on the total-winnings screen.
 
@@ -183,6 +186,10 @@ answers) and comes back when they close the window.
 | Switch the Question | Total winnings |
 |---|---|
 | ![Switch the Question](docs/screenshots/tv-switch-reveal.jpg) | ![Winnings](docs/screenshots/tv-winnings.jpg) |
+
+| Back from a break | Ready to play: the lifelines left, lit on the tree |
+|---|---|
+| ![Back from a break](docs/screenshots/tv-back-from-break.jpg) | ![Ready to play](docs/screenshots/tv-ready-to-play.jpg) |
 
 | Commercial break | Fastest Finger First results |
 |---|---|
